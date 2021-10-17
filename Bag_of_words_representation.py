@@ -1,4 +1,6 @@
-from Vocabulary import vocab, extract
+#Importing function from other file.
+from Vocabulary import vocab
+
 import pandas as pd
 from imutils import paths
 from sklearn.feature_extraction.text import CountVectorizer
@@ -34,4 +36,5 @@ def BOW():
 
 
 if __name__ == "__main__":
-    bow = BOW()
+    bow, _ = BOW()
+    print(bow)
