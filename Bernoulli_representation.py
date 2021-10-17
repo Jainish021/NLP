@@ -1,4 +1,4 @@
-#Importing functions from other file.
+#Importing function from other file.
 from AlphaNumeric_vocabulary_builder import vocab
 
 import pandas as pd
